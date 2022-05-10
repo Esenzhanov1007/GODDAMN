@@ -15,6 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import { Link } from 'react-router-dom';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -155,17 +156,19 @@ export default function PrimarySearchAppBar() {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, }}>
       <AppBar position="static">
         <Toolbar>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
-          >
-            <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/45/7248345045_33c35371-d5c3-453b-87e0-c03e222c7563.png?cb=1652086739" alt="LOGO" />
-          </Typography>
+          <Link to="/">
+            <Typography
+              variant="h6"
+              noWrap
+              component="div"
+              sx={{ display: { xs: 'none', sm: 'block' } }}
+            >
+              <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/45/7248345045_33c35371-d5c3-453b-87e0-c03e222c7563.png?cb=1652086739" alt="LOGO" />
+            </Typography>
+          </Link>
           <Box sx={{ flexGrow: 1 }} />
           <Search>
             <SearchIconWrapper>
