@@ -1,20 +1,20 @@
 {
   "products": [
     {
-      "name": "DSAKFMLKAF",
-      "description": "Dominique A Same Style Hair Highlight Curly dsadsasda13*4 Lace Front Human Hair Wig TL412 Color 150% Density With Baby Hair",
-      "price": "1",
-      "picture": "sdasdasdasd",
-      "type": "dasdasd",
-      "id": 1
-    },
-    {
       "name": "DLKASdklasm",
       "description": "LKDSMAKLDMSKL",
       "price": "2103120dsa",
       "picture": "d;almdlskamdlska",
       "type": "dlakmdks",
       "id": 2
+    },
+    {
+      "name": "dsadasd",
+      "description": "dsadsa",
+      "price": null,
+      "picture": "dasd",
+      "type": "asdasd",
+      "id": 3
     }
   ]
 }
