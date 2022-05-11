@@ -104,7 +104,7 @@ export default function PrimarySearchAppBar() {
     </Menu>
   );
 
-  const mobileMenuId = 'primary-search-account-menu-mobile';
+const mobileMenuId = 'primary-search-account-menu-mobile';
   const renderMobileMenu = (
     <Menu
       anchorEl={mobileMoreAnchorEl}
@@ -173,17 +173,18 @@ export default function PrimarySearchAppBar() {
           <Box sx={{ flexGrow: 1 }} />
           <Search>
             <SearchIconWrapper>
-              <SearchIcon />
+              <SearchIcon sx={{color:'#333'}}/>
             </SearchIconWrapper>
             <StyledInputBase
               placeholder="Search…"
-              inputProps={{ 'aria-label': 'search' }}
+              inputProps={{ 'aria-label':'search',  }}
+              sx={{color:'#333'}}
             />
           </Search>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-            <Link to='/auth'>
-              <Button color="inherit">Sign in</Button>
+            <Link to='/auth' className='btnSign'>
+              <Button className='buttonSign' sx={{color:'black'}} color="inherit">Sign in</Button>
             </Link>
           </Box>
         </Toolbar>

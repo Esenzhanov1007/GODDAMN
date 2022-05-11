@@ -6,7 +6,6 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #333 !important;
 }
 
 header {
@@ -25,3 +24,7 @@ header::after {
   height: 1px;
   background: #000;
 }
+.btnSign{
+  text-decoration: none;
+}
+
