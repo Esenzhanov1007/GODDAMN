@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -58,7 +60,9 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
+
 export default function PrimarySearchAppBar() {
+
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
@@ -103,6 +107,17 @@ export default function PrimarySearchAppBar() {
       <MenuItem onClick={handleMenuClose}>My account</MenuItem>
     </Menu>
   );
+
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const [search, setSearch] = useState(searchParams.get('q') || '');
+
+  useEffect(() => {
+    setSearchParams({
+      q: search,
+    });
+  }, [search]);
+
 
 const mobileMenuId = 'primary-search-account-menu-mobile';
   const renderMobileMenu = (
@@ -176,6 +191,9 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
               <SearchIcon sx={{color:'#333'}}/>
             </SearchIconWrapper>
             <StyledInputBase
+              fullWidth
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
               placeholder="Search…"
               inputProps={{ 'aria-label':'search',  }}
               sx={{color:'#333'}}
