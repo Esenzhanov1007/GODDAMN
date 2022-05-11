@@ -9,12 +9,12 @@
       "id": 2
     },
     {
-      "name": "dsadasd",
-      "description": "dsadsa",
-      "price": null,
-      "picture": "dasd",
-      "type": "asdasd",
-      "id": 3
+      "name": "MARMELADE",
+      "description": "MIYAGI & ANDY PANDA",
+      "price": 129039,
+      "picture": "https://frufru.ru/images/kartinki/shutterstock_94716472.jpg",
+      "type": "SONG",
+      "id": 4
     }
   ]
 }
