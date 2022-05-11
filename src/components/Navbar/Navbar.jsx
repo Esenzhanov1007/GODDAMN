@@ -108,7 +108,7 @@ export default function PrimarySearchAppBar() {
     </Menu>
   );
 
-  const {searchParams, setSearchParams} = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const [search, setSearch] = useState(searchParams.get('q') || '');
 
@@ -192,6 +192,8 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
             </SearchIconWrapper>
             <StyledInputBase
               fullWidth
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
               placeholder="Search…"
               inputProps={{ 'aria-label':'search',  }}
               sx={{color:'#333'}}
