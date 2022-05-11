@@ -1,0 +1,14 @@
+
+.navig a{
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+.navig a:hover{
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+}
+
+.navigLink:hover {
+  background: white !important;
+}
+
