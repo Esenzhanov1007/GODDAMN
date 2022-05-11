@@ -1,14 +1,16 @@
+
 .icon{
   margin-right:10px;
 }
+
 .insta:hover{
-  color: #dd2a7b;;
+  color: #C13584 ;
 }
 .pinterest:hover{
-  color:#E60023;
+  color:#E60023 ;
 }
 .twitter:hover{
-  color:#1DA1F2
+  color:#1DA1F2;
 }
 .facebook:hover{
   color:#3B5998;

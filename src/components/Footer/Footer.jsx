@@ -69,7 +69,7 @@ const Footer = () => {
             </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={2} sx={{mt:"0.6rem"}}>
-            <Box sx={{fontWeight:'medium',fontSize:"1.1rem",cursor:'pointer'}}>Nordstrom Card & Rewards</Box>
+            <Box sx={{fontWeight:'medium',fontSize:"1.1rem",cursor:'pointer'}}>Goddamn Card & Rewards</Box>
             <Box my={{xs:1, sm:2}}>
               <Link href='/' color='inherit' underline="hover" sx={{fontSize:"0.9rem"}} >
               The Goddamn Club Rewards
@@ -82,7 +82,7 @@ const Footer = () => {
             </Box>
             <Box my={{xs:1, sm:2}}>
               <Link href='/' color='inherit' underline="hover" sx={{fontSize:"0.9rem"}}>
-              Manage My Nordstrom Card
+              Manage My Goddamn Card
               </Link>
             </Box>
           </Grid>
@@ -90,12 +90,12 @@ const Footer = () => {
             <Box sx={{fontWeight:'medium',fontSize:"1.1rem",cursor:'pointer'}}>Goddamn, Inc.</Box>
             <Box my={{xs:1, sm:2}}>
               <Link href='/' color='inherit' underline="hover" sx={{fontSize:"0.9rem"}} >
-                Nordstrom Osh
+                Goddamn Osh
               </Link>
             </Box>
             <Box my={{xs:1, sm:2}}>
               <Link href='/' color='inherit' underline="hover" sx={{fontSize:"0.9rem"}}>
-                Nordstrom Bishkek
+                Goddamn Bishkek
               </Link>
             </Box>
             <Box my={{xs:1, sm:2}}>
@@ -113,21 +113,6 @@ const Footer = () => {
                     <PinterestIcon className="icon pinterest"/> 
                     <TwitterIcon className="icon twitter"/> 
                     <FacebookIcon className="icon facebook"/>
-                  </Link>
-                </Box>
-                <Box my={{xs:1, sm:2}}>
-                  <Link href='/' color='inherit' underline="hover" sx={{fontSize:"0.9rem"}}>
-                    
-                  </Link>
-                </Box>
-                <Box my={{xs:1, sm:2}}>
-                  <Link href='/' color='inherit' underline="hover" sx={{fontSize:"0.9rem"}}>
-                    
-                  </Link>
-                </Box>
-                <Box my={{xs:1, sm:2}}>
-                  <Link href='/' color='inherit' underline="hover" sx={{fontSize:"0.9rem"}}>
-                    
                   </Link>
                 </Box>
               </Box>
