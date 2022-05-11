@@ -134,7 +134,7 @@ export default function Auth() {
                 sx={{ mt: 3, mb: 2, backgroundColor: 'royalblue' }}
                 onClick={handleSignUp}
               >
-                Sign Up
+                Register
               </Button>
             )}
 
@@ -152,7 +152,7 @@ export default function Auth() {
                     variant="body2"
                     onClick={() => setHasAccount(!hasAccount)}
                   >
-                    {"Don't have an account? Sign Up"}
+                    {"Don't have an account? Register"}
                   </Link>
                 ) : (
                   <Link
