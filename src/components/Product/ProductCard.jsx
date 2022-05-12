@@ -18,15 +18,18 @@ export default function ProductCard({ item }) {
   // const { addProductToCart, checkProductInCart } = useCart();
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card 
+    sx={{ maxWidth: 345 }}
+    >
       <CardMedia
         component="img"
         height="140"
         image={item.picture}
         alt={item.name}
+        onClick={() => navigate(`/products/${item.id}`)}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" onClick={() => navigate(`/products/${item.id}`)}>
           {item.name}
         </Typography>
 
@@ -35,6 +38,7 @@ export default function ProductCard({ item }) {
           variant="h5"
           component="div"
           sx={{ color: 'green', fontWeight: '700' }}
+          onClick={() => navigate(`/products/${item.id}`)}
         >
           {item.price}$
         </Typography>
