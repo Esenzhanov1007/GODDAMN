@@ -15,6 +15,14 @@
       "picture": "dasd",
       "type": "asdasd",
       "id": 3
+    },
+    {
+      "name": "Мадина",
+      "description": "adwawd",
+      "price": null,
+      "picture": "awdw",
+      "type": "dawda",
+      "id": 4
     }
   ]
 }
