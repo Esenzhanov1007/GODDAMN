@@ -19,6 +19,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -107,6 +108,8 @@ export default function PrimarySearchAppBar() {
       <MenuItem onClick={handleMenuClose}>My account</MenuItem>
     </Menu>
   );
+
+  const [count, setCount] = React.useState(0);
 
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -199,6 +202,13 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
               sx={{color:'#333'}}
             />
           </Search>
+          <Link to="/cart">
+              <Button sx={{ my: 2, color: 'black' }}>
+                <Badge badgeContent={count} color="error">
+                  <ShoppingCartIcon />
+                </Badge>
+              </Button>
+            </Link>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <Link to='/auth' className='btnSign'>

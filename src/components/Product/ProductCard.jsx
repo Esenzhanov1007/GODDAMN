@@ -15,7 +15,7 @@ export default function ProductCard({ item }) {
   const navigate = useNavigate();
 
   const { deleteProduct } = useProducts();
-  // const { addProductToCart, checkProductInCart } = useCart();
+  const { addProductToCart, checkProductInCart } = useCart();
 
   return (
     <Card 
@@ -67,11 +67,11 @@ export default function ProductCard({ item }) {
           Edit
         </Button>
 
-        {/* <IconButton onClick={() => addProductToCart(item)}>
+        <IconButton onClick={() => addProductToCart(item)}>
           <ShoppingCartIcon
             color={checkProductInCart(item.id) ? 'primary' : ''}
           />
-        </IconButton> */}
+        </IconButton>
       </CardActions>
     </Card>
   );
