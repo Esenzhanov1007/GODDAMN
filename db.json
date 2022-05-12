@@ -1,20 +1,332 @@
 {
   "products": [
     {
-      "name": "DLKASdklasm",
-      "description": "LKDSMAKLDMSKL",
-      "price": "2103120",
-      "picture": "d;almdlskamdlska",
-      "type": "dlakmdks",
-      "id": 2
+      "name": "SMOK VAPE PEN 22",
+      "description": "Очередной шедевр в сегменте стартовых наборов предлагает известный производитель SMOKE. VAPE PEN 22 в ультралегком дизайне создан специально для новых пользователей. Лаконичный дизайн и простая конструкция, ничего лишнего и ничего сложного - все продумано таким образом, чтобы ваше знакомство произошло наиболее комфортно и продуктивно. Современным новичкам безумно везет. Берите и пробуйте новинки от известного производителя. SMOK – VAPE PEN - недорогое устройство с отличной парогенерацией и вкусопредачей.",
+      "price": 1490,
+      "picture": "https://vape.kg/wa-data/public/shop/products/71/01/171/images/542/542.345x0.jpg",
+      "type": "vapes",
+      "id": 3
     },
     {
-      "name": "MARMELADE",
-      "description": "MIYAGI & ANDY PANDA",
-      "price": 129039,
-      "picture": "https://frufru.ru/images/kartinki/shutterstock_94716472.jpg",
-      "type": "SONG",
+      "name": "SMOK OSUB BABY ",
+      "description": "Модифицированная электронная сигарета Smok OSUB 80W Baby выполненная в виде бокс-мода имеет не большой размер, выдает 80 Вт мощности и работает от одного сменного аккумулятора 18650. В набор входит атомайзер TFV8 Baby.",
+      "price": 3500,
+      "picture": "https://vape.kg/wa-data/public/shop/products/31/05/531/images/1647/1647.345x0.jpg",
+      "type": "vapes",
       "id": 4
+    },
+    {
+      "name": "GEEKVAPE ATHENA SQUONK KIT",
+      "description": "GeekVape Athena Squonk Kit - первый набор для сквонка, выпущенный китайской компанией GeekVape на волне интереса к подобному классу устройств. Суть сквонков в следующем: это такая связка, где в батарейном блоке устанавливается помимо аккумулятора ёмкость с жидкостью, которая подключается через коннектор к установленному атомайзеру. В атомайзере для работы системы необходимо наличие отверстия в центральном контакте, чтобы при надавливании на пузырёк с жидкостью она могла подниматься через коннектор и поступать сразу на фитиль. Связки подобного рода избавляют пользователя от необходимости постоянно докапывать жидкость во время парения, предлагая абсолютно иной подход к использованию дрип атомайзеров.",
+      "price": 3700,
+      "picture": "https://vape.kg/wa-data/public/shop/products/83/03/383/images/1313/1313.345x0@2x.jpg",
+      "type": "vapes",
+      "id": 5
+    },
+    {
+      "name": "ELEAF ICARE 2 STARTER KIT",
+      "description": "iCare 2 — обновленная версия популярной электронной сигареты для новичков. Главным отличием от предыдущей модели является появившееся кнопка «Fire», после зажатия которой можно произвести затяжку.",
+      "price": 1290,
+      "picture": "https://vape.kg/wa-data/public/shop/products/54/03/354/images/1224/1224.345x0@2x.jpg",
+      "type": "vapes",
+      "id": 6
+    },
+    {
+      "name": "GEEKVAPE GBOX SQUONKER 200W",
+      "description": "GeekVape GBOX Squonker 200W TC Kit with Radar RDA - набор для сквонка, разработанный компанией GeekVape. В комплекте предлагается батарейный блок GBOX с максимальной мощностью 200 Вт и дрипка Radar, предлагающая массу опций по обдуву спиралей.",
+      "price": 4800,
+      "picture": "https://vape.kg/wa-data/public/shop/products/15/04/415/images/1406/1406.345x0@2x.jpg",
+      "type": "vapes",
+      "id": 7
+    },
+    {
+      "name": "ELEAF IJUST ONE - НАБОР",
+      "description": "Eleaf iJust ONE - набор по типу всё в одном от компании Eleaf для начинающих, либо для тех пользователей, кому нужно компактное и простое устройство для постоянного ношения с собой.",
+      "price": 2590,
+      "picture": "https://vape.kg/wa-data/public/shop/products/89/03/389/images/1331/1331.345x0@2x.jpg",
+      "type": "vapes",
+      "id": 8
+    },
+    {
+      "name": "ELEAF IJUST ONE - НАБОР",
+      "description": "Eleaf iJust ONE - набор по типу всё в одном от компании Eleaf для начинающих, либо для тех пользователей, кому нужно компактное и простое устройство для постоянного ношения с собой.",
+      "price": 1300,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/2fd/400_400_140cd750bba9870f18aada2478b24840a/2fdba0fef77046e6fd942ce0ee2b8f83.jpg?165119227728957",
+      "type": "vapes",
+      "id": 9
+    },
+    {
+      "name": "ELEAF IJUST ONE - НАБОР",
+      "description": "Eleaf iJust ONE - набор по типу всё в одном от компании Eleaf для начинающих, либо для тех пользователей, кому нужно компактное и простое устройство для постоянного ношения с собой.",
+      "price": 2700,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/671/400_400_140cd750bba9870f18aada2478b24840a/671e29aa20e84d9d57ad3e0d9fcd49cf.jpg?165157668414612",
+      "type": "vapes",
+      "id":10
+    },
+    {
+      "name": "Одноразовая сигарета ELEAF IJUST ONE",
+      "description": "Одноразовая электронная сигарета производства AIVONO - AIM plus, упакована в бумажную коробку, с изображенным на ней вкусом. ",
+      "price": 450,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/fa0/fa06dd4285207cdff98c70f37b4ab427.jpg?165112743856267",
+      "type": "pods",
+      "id": 11
+    },
+    {
+      "name": "Одноразовая сигарета AIM Plus ICE 800 5%",
+      "description": "Одноразовая электронная сигарета производства AIVONO - AIM plus, упакована в бумажную коробку, с изображенным на ней вкусом. ",
+      "price": 390,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/922/922827197afb9f6858cd5051728d037a.jpg?1651127440467392",
+      "type": "pods",
+      "id": 12
+    },
+    {
+      "name": "Одноразовая сигарета AIM Plus 800 5%",
+      "description": "Одноразовая электронная сигарета производства AIVONO - AIM plus, упакована в бумажную коробку, с изображенным на ней вкусом. ",
+      "price": 790,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/550/550bb2fbe0b590fcb045658f3e429404.jpg?1651126637464093",
+      "type": "pods",
+      "id": 13
+    },
+    {
+      "name": "Одноразовая сигарета Jomo 5% 1600",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 590,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/e38/e38d78a49b8c4d3a8f0498f0ac77b864.jpg?1651127441301881",
+      "type": "pods",
+      "id": 14
+    },
+    {
+      "name": "Одноразовая сигарета AIM FIRE 1000 5%",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 790,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/898/8981dc13a7b9b8b33fc71f614c4994d3.jpg?1651125919464200",
+      "type": "pods",
+      "id": 15
+    },
+    {
+      "name": "Одноразовая сигарета ALT 2% 1500",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 550,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/219/400_400_140cd750bba9870f18aada2478b24840a/21934784a2617f1ce7217fbd1b9ce895.jpg?165116685420435",
+      "type": "pods",
+      "id": 16
+    },
+    {
+      "name": "VAAL Верстак 1600C 850 мАч",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 590,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/1c2/400_400_140cd750bba9870f18aada2478b24840a/1c2eab616ad2a58fa94a4bcead9df5a1.jpg?165112745536580",
+      "type": "pods",
+      "id": 17
+    },
+    {
+      "name": "Одноразовая сигарета AIM STICK 2500 5%",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 590,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/ce4/ce48fcfb5c1c8b1fac954ccebd1a8e6d.png?165112743991405",
+      "type": "pods",
+      "id": 18
+    },
+    {
+      "name": "Одноразовая сигарета GORIN ICE 2000 2 %",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 630,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/96b/96ba5ea9e015c4ad0557f3cdb6f1ce5e.jpg?1651126645129811",
+      "type": "pods",
+      "id": 19
+    },
+    {
+      "name": "Одноразовая сигарета KUGA 2 % 2500",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 690,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/949/949ad494c4d0005e0841924b46236024.jpg?1651127447193192",
+      "type": "pods",
+      "id": 20
+    },
+    {
+      "name": "Жидкость UFO Malasian ICE 30 ml 20 mg",
+      "description": "Одноразовая электронная сигарета JOMO получила привычную форму скругленного стика Корпус изготовлен из легкого пластика.",
+      "price": 470,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/c7b/c7b423590762390daf7112f6314d7a55.jpg?1652150117131081",
+      "type": "vape liquid",
+      "id": 21
+    },
+    {
+      "name": "Жидкость NEW BLAST Malasian ICE 30 ml 20 mg",
+      "description": "Жидкости NEW BLAST Malasian ICE от российского производителя покорят любого гурмана вкусного парения, представляем линейку из 4-ех новых вкусов с содержанием солевого никотина 20 мг.",
+      "price": 490,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/6a4/6a42c9d0ec4be2915eb4a552f7c9a294.jpg?1652149924113213",
+      "type": "vape liquid",
+      "id": 22
+    },
+    {
+      "name": "Жидкость NEW BLAST Perfect 30 ml 20 mg",
+      "description": "Жидкости NEW BLAST Perfect от российского производителя покорят любого гурмана вкусного парения, представляем линейку из 4-ех новых вкусов с содержанием солевого никотина 20 мг.",
+      "price": 460,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/3f6/3f6976d25eb600162a5f427224184514.jpg?1652149923106741",
+      "type": "vape liquid",
+      "id": 23
+    },
+    {
+      "name": "Жидкость NEW BLAST TOBACCO 30 ml 10 mg",
+      "description": "Жидкости NEW BLAST Perfect от российского производителя покорят любого гурмана вкусного парения, представляем линейку из 4-ех новых вкусов с содержанием солевого никотина 20 мг.",
+      "price": 480,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/462/46226b2eede141dca0efac169a2f4a8b.jpg?165215042083643",
+      "type": "vape liquid",
+      "id": 24
+    },
+    {
+      "name": "Жидкость NEW BLAST Lemzick 30 ml 20 mg",
+      "description": "Жидкости NEW BLAST Perfect от российского производителя покорят любого гурмана вкусного парения, представляем линейку из 4-ех новых вкусов с содержанием солевого никотина 20 мг.",
+      "price": 430,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/9ad/9adda8955479d4fe2fd5f13154b3c644.jpg?1651125921563328",
+      "type": "vape liquid",
+      "id": 25
+    },
+    {
+      "name": "Жидкость NEW BLAST Lemzick 30 ml 20 mg",
+      "description": "Жидкости NEW BLAST Perfect от российского производителя покорят любого гурмана вкусного парения, представляем линейку из 4-ех новых вкусов с содержанием солевого никотина 20 мг.",
+      "price": 420,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/43a/43ad3dc52749fb2b15d17174cf42511e.jpg?1652150725109544",
+      "type": "vape liquid",
+      "id": 26
+    },
+    {
+      "name": "Кальян JS акрил",
+      "description": "Кальян с интересным дизайном и суперской комплектацией.",
+      "price": 2200,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/4b7/4b71605d2b01f27cc89a8460facb4b51.jpg?1650516291224731",
+      "type": "hookah",
+      "id": 27
+    },
+    {
+      "name": "Кальян классический MITSUBA 60 см",
+      "description": "Кальян с интересным дизайном и суперской комплектацией.",
+      "price": 3800,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/acc/accc5e010888815ff67d9b0cc16f423c.jpeg?1651125886175594",
+      "type": "hookah",
+      "id": 28
+    },
+    {
+      "name": "Кальян Amy 50 см",
+      "description": "Кальян с интересным дизайном и суперской комплектацией.",
+      "price": 4200,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/137/1374c6cc93c7ddb9a3114d9ca55a40b2.jpeg?1651126616168095",
+      "type": "hookah",
+      "id": 29
+    },
+    {
+      "name": "Кальян Khalil Mamoon Chiller Ice",
+      "description": "Кальян с интересным дизайном и суперской комплектацией.",
+      "price": 5700,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/043/0439afa8030727a57336f707b724c557.jpeg?1651126232172156",
+      "type": "hookah",
+      "id": 30
+    },
+    {
+      "name": "Табак для кальяна Coconut Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/53a/53aa1160f2590c5f4203db0e763fe170.jpeg?1651126948521845",
+      "type": "hookah tobacco",
+      "id": 31
+    },
+    {
+      "name": "Табак для кальяна Paris Charm Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/d37/d37a911aebef6d90db2b3ef6b2e8bda5.jpeg?1651125513535441",
+      "type": "hookah tobacco",
+      "id": 32
+    },
+    {
+      "name": "Табак для кальяна Kiwi Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/5d4/5d4c45b5ec1c4a9232419531a55529da.jpeg?1651126236349922",
+      "type": "hookah tobacco",
+      "id": 33
+    },
+    {
+      "name": "Табак для кальяна Tropical Fruits Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/6ce/6ce0aa8f2acf25bf255c2adb56b840de.jpeg?1651126236373986",
+      "type": "hookah tobacco",
+      "id": 34
+    },
+    {
+      "name": "Табак для кальяна Pomegranate Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/476/476364453cb9c89c0280743735a1da9d.jpeg?1651126237788106",
+      "type": "hookah tobacco",
+      "id": 35
+    },
+    {
+      "name": "Табак для кальяна Strawberry Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/a75/a75ea17ef6171b1730618dc71657e69a.jpeg?1651127839593816",
+      "type": "hookah tobacco",
+      "id": 36
+    },
+    {
+      "name": "Табак для кальяна Coconut Banana Vanilla Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/2ed/2ed4d88e490200bdeac2a6e8720df16f.jpeg?1651126239733006",
+      "type": "hookah tobacco",
+      "id": 37
+    },
+    {
+      "name": "Табак для кальяна Melon Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/aed/aed00797185ce8cda9899cd7236a46f7.jpeg?1651126235548082",
+      "type": "hookah tobacco",
+      "id": 38
+    },
+    {
+      "name": "Табак для кальяна Mixed Fruits Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/f07/f07d0f08d3ac4f7e46bc8d7d85d91aeb.jpeg?1651126235503674",
+      "type": "hookah tobacco",
+      "id": 39
+    },
+    {
+      "name": "Табак для кальяна Gum Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/200/20088e23b08a5c77161c1230415f9db8.jpeg?1651128433295324",
+      "type": "hookah tobacco",
+      "id": 40
+    },
+    {
+      "name": "Табак для кальяна Orange Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/357/357dc65a94b6d849c56a6d119a074814.jpeg?1651127839547922",
+      "type": "hookah tobacco",
+      "id": 41
+    },
+    {
+      "name": "Табак для кальяна Grapefruit Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/964/964e14ed9eacd4ededfc99a40c8f7af8.jpeg?1651125514389761",
+      "type": "hookah tobacco",
+      "id": 42
+    },
+    {
+      "name": "Табак для кальяна Blueberry Al-Ajamy 50 гр.",
+      "description": "Табак для кальяна Аль Аджами (Al Ajamy tobacco) – это уникальная смесь лучших табачных листьев и натуральных ароматизаторов. Большой выбор ярких и мягких вкусов, насыщенный и приятный аромат, высокое качество сделали этот табак популярным среди любителей кальяна во всем мире. ",
+      "price": 230,
+      "picture": "https://opt-583312.ssl.1c-bitrix-cdn.ru/upload/iblock/3e4/3e45da17d983d89000c76a059c554e67.jpeg?1651127845588642",
+      "type": "hookah tobacco",
+      "id": 43
     }
   ]
 }
