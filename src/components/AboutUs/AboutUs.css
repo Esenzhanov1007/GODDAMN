@@ -1,0 +1,35 @@
+
+.aboutUs{
+  display: flex;
+  height: 810px;
+}
+.aboutUsImg{
+  display: flex;
+  width: 50%;
+  align-self: center;
+  justify-content: center;
+}
+.aboutUsInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 17px;
+  width: 50%;
+}
+.aboutUsIcons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.icon{
+  margin-right: 10px;
+}
+.spanIcon{
+  margin-top: 5px;
+}
+.info{
+  margin-bottom: 10px;
+}
+.info2 p{
+  margin-top: 30px;
+}
