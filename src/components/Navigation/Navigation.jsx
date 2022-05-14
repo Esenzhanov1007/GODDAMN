@@ -26,15 +26,13 @@ const Navigation = () => {
         {pages.map((page) => (
           <MenuItem className="navigLink" key={page.id} onClick={handleCloseNavMenu} sx={{bgcolor: 'none'}}>
             <Link to={page.link}  >
-              <Typography
-                
-                
+              <Typography                
                 sx={{
                   ml: 'auto',
                   my: 1,
                   color: 'black',
                   display: 'block',
-                   background: 'white',
+                  background: 'white',
                 }}
                 
               >
