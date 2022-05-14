@@ -9,3 +9,5 @@ export const CART = {
 };
 
 export const JSON_API_PRODUCTS = 'http://localhost:8008/products';
+
+export const ADMIN = 'admin@gmail.com';

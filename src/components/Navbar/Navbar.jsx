@@ -20,6 +20,8 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { useAuth } from '../../contexts/AuthContextProvider';
+import { ADMIN } from '../../helpers/consts';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -121,6 +123,11 @@ export default function PrimarySearchAppBar() {
     });
   }, [search]);
 
+  const {
+    handleLogout,
+    user: { email },
+  } = useAuth();
+
 
 const mobileMenuId = 'primary-search-account-menu-mobile';
   const renderMobileMenu = (
@@ -202,18 +209,30 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
               sx={{color:'#333'}}
             />
           </Search>
-          <Link to="/cart">
+          {email != ADMIN ? (          <Link to="/cart">
               <Button sx={{ my: 2, color: 'black' }}>
                 <Badge badgeContent={count} color="error">
                   <ShoppingCartIcon />
                 </Badge>
               </Button>
-            </Link>
+            </Link>) : 
+            ''}
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-            <Link to='/auth' className='btnSign'>
-              <Button className='buttonSign' sx={{color:'black'}} color="inherit">Sign in</Button>
-            </Link>
+          {email ? (
+              <Button
+                sx={{ color: 'black', fontWeight: 'bold' }}
+                onClick={handleLogout}
+              >
+                LOGOUT
+              </Button>
+            ) : (
+              <Link to="/auth">
+                <Button sx={{ color: 'black', fontWeight: 'bold' }}>
+                  LOGIN
+                </Button>
+              </Link>
+            )}
           </Box>
         </Toolbar>
       </AppBar>

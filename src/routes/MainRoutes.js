@@ -10,6 +10,7 @@ import NotFoundPage from '../pages/NotFoundPage';
 import ProductDetailsPage from '../pages/ProductDetailsPage';
 import ProductsPage from '../pages/ProductsPage';
 import EditProductPage from '../pages/EditProductPage';
+import Payment from '../components/Payment/Payment';
 
 const MainRoutes = () => {
   const PUBLIC_ROUTES = [
@@ -62,6 +63,11 @@ const MainRoutes = () => {
       link: '/edit/:id',
       element: <EditProductPage />,
       id: 10,
+    },
+    {
+      link: '/payment',
+      element: <Payment />,
+      id: 11,
     },
   ];
 
