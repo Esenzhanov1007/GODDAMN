@@ -23,17 +23,17 @@ export default function ProductCard({ item }) {
 
   return (
     <Card 
-    sx={{ maxWidth: 345  }}
+    sx={{ maxWidth: 250, margin: '20px 40px' }}
     >
       <CardMedia
         component="img"
-        height="140"
+        height="300"
         image={item.picture}
         alt={item.name}
         onClick={() => navigate(`/products/${item.id}`)}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div" onClick={() => navigate(`/products/${item.id}`)}>
+        <Typography gutterBottom variant="h5" component="div" onClick={() => navigate(`/products/${item.id}`)} sx={{height: 60}}>
           {item.name}
         </Typography>
 
@@ -75,7 +75,7 @@ export default function ProductCard({ item }) {
         ) : (
                   <IconButton onClick={() => addProductToCart(item)}>
                   <ShoppingCartIcon
-                    color={checkProductInCart(item.id) ? 'primary' : ''}
+                    color={checkProductInCart(item.id) ? 'success' : ''}
                   />
                 </IconButton>
         )}

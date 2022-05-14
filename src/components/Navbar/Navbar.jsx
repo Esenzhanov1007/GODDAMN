@@ -196,7 +196,10 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
             </Typography>
           </Link>
           <Box sx={{ flexGrow: 1 }} />
-          <Search>
+          <Search fullWidth 
+          sx={{border: '1px solid #333', borderRadius: 0,}}
+          className="navbarSearch"
+          >
             <SearchIconWrapper>
               <SearchIcon sx={{color:'#333'}}/>
             </SearchIconWrapper>
@@ -209,6 +212,7 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
               sx={{color:'#333'}}
             />
           </Search>
+          <Box sx={{ flexGrow: 1 }} />
           {email != ADMIN ? (          <Link to="/cart">
               <Button sx={{ my: 2, color: 'black' }}>
                 <Badge badgeContent={count} color="error">
@@ -217,7 +221,6 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
               </Button>
             </Link>) : 
             ''}
-          <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
           {email ? (
               <Button
