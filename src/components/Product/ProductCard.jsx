@@ -10,12 +10,16 @@ import { useProducts } from '../../contexts/ProductContextProvider';
 import { IconButton } from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useCart } from '../../contexts/CartContextProvider';
+import {useAuth} from '../../contexts/AuthContextProvider'
+import { ADMIN } from '../../helpers/consts';
 
 export default function ProductCard({ item }) {
   const navigate = useNavigate();
 
   const { deleteProduct } = useProducts();
   const { addProductToCart, checkProductInCart } = useCart();
+
+  const {user: {email}} = useAuth();
 
   return (
     <Card 
@@ -59,19 +63,25 @@ export default function ProductCard({ item }) {
         </Typography>
       </CardContent>
       <CardActions>
+        {email == ADMIN ? (    
+        <>
         <Button size="small" onClick={() => deleteProduct(item.id)}>
           Delete
         </Button>
-
         <Button size="small" onClick={() => navigate(`/edit/${item.id}`)}>
           Edit
         </Button>
+        </>
+        ) : (
+                  <IconButton onClick={() => addProductToCart(item)}>
+                  <ShoppingCartIcon
+                    color={checkProductInCart(item.id) ? 'primary' : ''}
+                  />
+                </IconButton>
+        )}
 
-        <IconButton onClick={() => addProductToCart(item)}>
-          <ShoppingCartIcon
-            color={checkProductInCart(item.id) ? 'primary' : ''}
-          />
-        </IconButton>
+
+
       </CardActions>
     </Card>
   );
