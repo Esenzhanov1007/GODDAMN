@@ -1,12 +1,14 @@
 import React from 'react';
 import ProductList from '../components/Product/ProductList';
+import { Box, Grid } from '@mui/material';
 
 const ProductsPage = () => {
   return (
-    <div>
-      Products
-      <ProductList />
-    </div>
+    <Box p={5}>
+      <Grid container spacing={3}>
+        <ProductList />
+      </Grid>
+    </Box>
   );
 };
 
