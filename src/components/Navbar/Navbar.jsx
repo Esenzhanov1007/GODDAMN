@@ -196,7 +196,7 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
             </Typography>
           </Link>
           <Box sx={{ flexGrow: 1 }} />
-          <Search>
+          <Search style={{width:'30%', border: '2px solid black'}}>
             <SearchIconWrapper>
               <SearchIcon sx={{color:'#333'}}/>
             </SearchIconWrapper>
