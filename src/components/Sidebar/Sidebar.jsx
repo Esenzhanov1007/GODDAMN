@@ -33,34 +33,34 @@ const SideBar = () => {
               name="radio-buttons-group"
               onChange={(e) => fetchByParams('type', e.target.value)}
             >
-              <FormControlLabel value="all" control={<Radio />} label="all" />
+              <FormControlLabel value="all" control={<Radio />} label="All" />
 
               <FormControlLabel
                 value="vapes"
                 control={<Radio />}
-                label="vapes"
+                label="Vapes"
               />
 
               <FormControlLabel
                 value="pods"
                 control={<Radio />}
-                label="pods"
+                label="Pods"
               />
 
               <FormControlLabel
                 value="vape liquid"
                 control={<Radio />}
-                label="vape liquid"
+                label="Vape liquid"
               />
               <FormControlLabel
                 value="hookah"
                 control={<Radio />}
-                label="hookah"
+                label="Hookah"
               />
               <FormControlLabel
                 value="hookah tobacco"
                 control={<Radio />}
-                label="hookah tobacco"
+                label="Hookah tobacco"
               />
             </RadioGroup>
           </FormControl>
@@ -74,23 +74,23 @@ const SideBar = () => {
             name="radio-buttons-group"
             onChange={(e) => fetchByParams('price_lte', e.target.value)}
           >
-            <FormControlLabel value="all" control={<Radio />} label="all" />
+            <FormControlLabel value="all" control={<Radio />} label="All" />
             <FormControlLabel
               value="500"
               control={<Radio />}
-              label="less than 500$"
+              label="Less than 500$"
             />
 
             <FormControlLabel
               value="1000"
               control={<Radio />}
-              label="less than 1000$"
+              label="Less than 1000$"
             />
 
             <FormControlLabel
               value="2000"
               control={<Radio />}
-              label="less than 2000$"
+              label="Less than 2000$"
             />
           </RadioGroup>
         </FormControl>
