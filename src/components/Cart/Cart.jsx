@@ -96,7 +96,7 @@ export default function Cart() {
       </Table>
 
       <Link to="/payment">
-        <Button onClick={cartCleaner}> BUY NOW FOR {cart?.totalPrice} $</Button>
+        <Button variant="contained" color="success" sx={{margin: '2vh'}} onClick={cartCleaner}> BUY NOW FOR {cart?.totalPrice} $</Button>
       </Link>
 
     </TableContainer>
