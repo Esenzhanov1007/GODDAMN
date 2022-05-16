@@ -146,7 +146,7 @@ const MainPage = () => {
           </div>
         </div>
       </div>
-      <Grid container sx={{marginLeft: '3vw', }}>
+      <Grid container sx={{paddingLeft: '4vw'}}>
         <ProductList />
       </Grid>
       

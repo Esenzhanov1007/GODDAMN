@@ -230,10 +230,8 @@ const mobileMenuId = 'primary-search-account-menu-mobile';
                 LOGOUT
               </Button>
             ) : (
-              <Link to="/auth">
-                <Button sx={{ color: 'black', fontWeight: 'bold' }}>
+              <Link to="/auth" style={{textDecoration: 'none', color: 'black', fontWeight: 'bold',}}>
                   LOGIN
-                </Button>
               </Link>
             )}
           </Box>
