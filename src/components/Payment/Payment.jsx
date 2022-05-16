@@ -1,24 +1,24 @@
-import {CardElement, CardNumberElement, Elements} from '@stripe/react-stripe-js';
-import {loadStripe} from '@stripe/stripe-js';
-import CheckoutForm from './CheckoutForm';
+// import {CardElement, CardNumberElement, Elements} from '@stripe/react-stripe-js';
+// import {loadStripe} from '@stripe/stripe-js';
+// import CheckoutForm from './CheckoutForm';
 
-// Make sure to call `loadStripe` outside of a component’s render to avoid
-// recreating the `Stripe` object on every render.
-const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+// // Make sure to call `loadStripe` outside of a component’s render to avoid
+// // recreating the `Stripe` object on every render.
+// const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
-const Payment = () => {
-  const options = {
-    // passing the client secret obtained from the server
-    clientSecret: '{{CLIENT_SECRET}}',
-  };
+// const Payment = () => {
+//   const options = {
+//     // passing the client secret obtained from the server
+//     clientSecret: '{{CLIENT_SECRET}}',
+//   };
 
-  return (
-    <Elements stripe={stripePromise} options={options}>
-      <CheckoutForm />
-      <CardElement />
-      <CardNumberElement />
-    </Elements>
-  );
-};
+//   return (
+//     <Elements stripe={stripePromise} options={options}>
+//       <CheckoutForm />
+//       <CardElement />
+//       <CardNumberElement />
+//     </Elements>
+//   );
+// };
 
-export default Payment;
+// export default Payment;

@@ -1,5 +1,7 @@
+import { Grid } from "@mui/material";
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import ProductList from "../Product/ProductList";
 import './MainPage.css'
 
 const MainPage = () => {
@@ -7,7 +9,7 @@ const MainPage = () => {
     <div>
       <div><h1 class="text-center">GODDAMN</h1></div>
       <div className="hero">
-        <Carousel card bg-dark text-white border-0>
+        <Carousel card bg-dark text-white border-0 style={{margin: '0 30px 0 30px'}}>
         <Carousel.Item>
             <img
               className="d-block w-100"
@@ -43,10 +45,6 @@ const MainPage = () => {
               width='150px'
               height='500px'
             />
-          {/* <Carousel.Caption>
-            <h3>Men's clothing</h3>
-            <p>Shop men's clothing at La collection</p>
-          </Carousel.Caption> */}
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -75,8 +73,6 @@ const MainPage = () => {
               height='500px'
             />
           </Carousel.Item>
-     
-          
         </Carousel>
       </div>
       <div className='links' class='d-flex justify-content-around' style={{height:'150px', marginTop:'30px'}}>
@@ -109,6 +105,50 @@ const MainPage = () => {
           </div>
         </div>
       </div>
+      <div>
+          <div class='d-flex justify-content-center'>
+            <div className="video">
+              <video src="https://www.theartofvape.gr/wp-content/uploads/2022/03/pexels-ivan-samkov-6962491.mp4" height='360' autoPlay muted controls></video>
+            </div>
+            <div className="mainInfo">
+              <p><strong>The GodDamn</strong> e-cigarette store is located in Bishkek, Lykovrisi and has direct access from Metamorfosi, Lykovrisi and the surrounding areas.</p>
+              <p>In the store with electronic cigarettes you will find electronic cigarettes, refill liquids, mods, vaporizers, accessories, batteries for MOD, BOX MOD, chargers, cases etc.</p>
+            </div>
+          </div>
+      </div>
+      <div className='category' class='d-flex flex-wrap justify-content-around' >
+        <div className='top'>
+          <img src="https://www.theartofvape.gr/wp-content/uploads/2022/04/kat-Ατμοποιητής.jpg" alt="vaporizer" width='340' height='390' />
+          <br/>
+          <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+            <a class="text-decoration-none link-dark" href="#">испарители</a>
+          </div>
+        </div>
+        <div className='top'>
+          <img src="https://www.theartofvape.gr/wp-content/uploads/2022/04/kat-αξεσουαρ.jpg" alt="accessory" width='340' height='390'/>
+          <br/>
+          <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+            <a class="text-decoration-none link-dark" href="#">аксессуары</a>
+          </div>
+        </div>
+        <div className='top'>
+          <img src="https://www.theartofvape.gr/wp-content/uploads/2022/04/kat-υγρα-αναπληρωσης.jpg" alt="liquids" />
+          <br/>
+          <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+            <a class="text-decoration-none link-dark" href="#">жидкости</a>
+          </div>
+        </div>
+        <div className='top'>
+          <img src="https://www.theartofvape.gr/wp-content/uploads/2022/04/kat-συσκευη.jpg" alt="device" />
+          <br/>
+          <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+            <a class="text-decoration-none link-dark" href="#">девайсы</a>
+          </div>
+        </div>
+      </div>
+      <Grid container sx={{marginLeft: '3vw'}}>
+        <ProductList />
+      </Grid>
     </div>
   );
 };

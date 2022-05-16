@@ -16,7 +16,8 @@ const Footer = () => {
     <Box 
     px={{xs: 3, sm:10}}
     py={{xs: 5, sm:10}}
-    bgcolor='#f9f9f9' color='black'>
+    bgcolor='#f9f9f9' color='black'
+    mt='20px'>
       <Container maxWidth='lg'>
         <Grid container spacing={5} textAlign='center'>
           <Grid   item xs={12} sm={6} md={2} sx={{mt:"0.6rem"}}>
