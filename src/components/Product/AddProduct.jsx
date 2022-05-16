@@ -34,6 +34,7 @@ const AddProduct = () => {
   return (
     <Box sx={{ width: '60vw', margin: '10vh auto' }}>
       <TextField
+        sx={{margin: '1vh 0'}}
         fullWidth
         id="outlined-basic"
         label="Name"
@@ -42,6 +43,7 @@ const AddProduct = () => {
         onChange={handleInp}
       />
       <TextField
+        sx={{margin: '1vh 0'}}
         fullWidth
         id="outlined-basic"
         label="Description"
@@ -50,6 +52,7 @@ const AddProduct = () => {
         onChange={handleInp}
       />
       <TextField
+        sx={{margin: '1vh 0'}}
         fullWidth
         id="outlined-basic"
         label="Price"
@@ -58,6 +61,7 @@ const AddProduct = () => {
         onChange={handleInp}
       />
       <TextField
+        sx={{margin: '1vh 0'}}
         fullWidth
         id="outlined-basic"
         label="Picture"
@@ -66,6 +70,7 @@ const AddProduct = () => {
         onChange={handleInp}
       />
       <TextField
+        sx={{margin: '1vh 0'}}
         fullWidth
         id="outlined-basic"
         label="Type"
@@ -74,6 +79,7 @@ const AddProduct = () => {
         onChange={handleInp}
       />
       <Button
+        sx={{margin: '1vh 0'}}
         variant="outlined"
         fullWidth
         size="large"
