@@ -86,7 +86,7 @@ export default function Cart() {
               <StyledTableCell align="right">{row.subPrice}</StyledTableCell>
 
               <StyledTableCell align="right">
-                <Button onClick={() => deleteCartProduct(row.item.id)}>
+                <Button variant='contained' color='error' onClick={() => deleteCartProduct(row.item.id)}>
                   DELETE
                 </Button>
               </StyledTableCell>
