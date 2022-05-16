@@ -8,9 +8,9 @@ import './Contacts.css'
 
 const Contacts = () => {
   return (
-    <div>
+    <div >
       <div style={{display:'flex',justifyContent:'center', margin: '5rem'}}>
-        <div style={{paddingRight:'5rem'}}>
+        <div style={{paddingRight:'5rem',}}>
           <div>
             <h2 style={{borderBottom:'2px solid #D4B79B'}}>Contact us</h2>
             <p className='home'><HomeIcon style={{marginRight:'8px', color:'#D4B79B'}}/> Erkindic av. 123</p>
